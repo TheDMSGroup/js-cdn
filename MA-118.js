@@ -83,8 +83,8 @@
     function fcmrktplace () {
         document.write('<div id="clicksnet_listing_1"></div>');
         // Note, 404s WILL occur due to an issue with these scripts :(
-        getScript('http://ads.fcmrktplace.com/scripts/clicksnet.js', function () {
-            getScript('http://ads.fcmrktplace.com/scripts/clicksnet_mortgage.js', function () {
+        getScript('https://ads.fcmrktplace.com/scripts/clicksnet.js', function () {
+            getScript('https://ads.fcmrktplace.com/scripts/clicksnet_mortgage.js', function () {
                 // Standard code below
                 var affcid = '1074631';
                 var key = 'OeG7gicNJPY1';
