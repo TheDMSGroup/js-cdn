@@ -153,15 +153,12 @@
     }
 
     // Split the traffic 3 ways.
-    switch (getRandomIntInclusive(1, 3)) {
+    switch (getRandomIntInclusive(1, 2)) {
         case 1:
             fcmrktplace();
             break;
         case 2:
             nextinsure();
-            break;
-        case 3:
-            bankrate();
             break;
     }
 })();
