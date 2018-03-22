@@ -152,13 +152,5 @@
         return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive
     }
 
-    // Split the traffic 3 ways.
-    switch (getRandomIntInclusive(1, 2)) {
-        case 1:
-            fcmrktplace();
-            break;
-        case 2:
-            nextinsure();
-            break;
-    }
+    fcmrktplace();
 })();
